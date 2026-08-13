@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@theme {
+  --color-cream: #fdf8f1;
+  --color-ink: #292018;
+  --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+body {
+  background-color: var(--color-cream);
+  color: var(--color-ink);
+}
